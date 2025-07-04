@@ -30,7 +30,7 @@ let homeContent = {
     title: "Fragrance",
     description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, tempore!,dipisicing elit. Ipsa, tempore!",
     button: "Discover",
-    homeImg: "/bkcollection/images/homeImg.png",
+    homeImg: "bkcollection/images/homeImg.png",
     imgAlt: "home Image"
 }
 let offersImages = [
