@@ -212,21 +212,21 @@ let posts = [
     title: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente, veniam.',
     date: 'May 20, 2023',
     category: 'Tips',
-    image: 'bkcollection/images/offer1.jpg'
+    image: '/bkcollection/images/offer1.jpg'
 },
 {
     id: 2,
     title: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente, veniam.',
     date: 'June 15, 2023',
     category: 'Tips',
-    image: 'bkcollection/images/offer2.jpg'
+    image: '/bkcollection/images/offer2.jpg'
 },
 {
     id: 3,
     title: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente, veniam.',
     date: 'July 2, 2023',
     category: 'Tips',
-    image: 'bkcollection/images/offer3.jpg'
+    image: '/bkcollection/images/offer3.jpg'
 }
 ];
 export { navData,logo,homeContent, offersImages ,prductPageContent , prductPageButtons,products,newArrivalsContent,reviews,posts}
