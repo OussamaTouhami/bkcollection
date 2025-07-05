@@ -55,7 +55,7 @@
 }
 @keyframes appear {
   from{
-    transform: translateY(-3%);
+    transform: translateY(5%);
     opacity: 0;
   }
   to{

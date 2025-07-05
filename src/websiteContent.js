@@ -10,16 +10,20 @@ let navData = [
         label: "Home"
     },
     {
-        href: "#catalogue",
-        label: "Catalogue"
-    },
-    {
         href: "#products",
         label: "Products"
     },
     {
-        href: "#about",
-        label: "About us"
+        href: "#newarrivals",
+        label: "New Arrivals"
+    },
+    {
+        href: "#reviews",
+        label: "Reviews"
+    },
+    {
+        href: "#blog",
+        label: "Blog"
     },
     {
         href: "#contact",

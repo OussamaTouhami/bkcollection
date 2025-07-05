@@ -11,7 +11,7 @@ function NewArrivals() {
 
     return (
         <>
-            <h1 id="catalogue" className="text-center text-[2rem] font-[600] mt-15 mb-2">
+            <h1  className="text-center text-[2rem] font-[600] mt-15 mb-2">
                 {newArrivalsContent.title}
             </h1>
             <p className="text-center">{newArrivalsContent.description}</p>

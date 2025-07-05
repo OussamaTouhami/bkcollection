@@ -18,16 +18,16 @@ function App() {
           <section className="flex justify-center items-center p-8 bg-[#fff2ce] min-h-[100vh] max-sm:flex-col-reverse max-sm:p-4 max-sm:text-center ">
             <Home/>
           </section>
-          <section  className="p-8 py-15 min-h-[150vh] max-sm:p-4  max-sm:py-15">
+          <section id="products"  className="p-8 py-15 min-h-[150vh] max-sm:p-4  max-sm:py-15">
             <ProductPage/>
           </section>
-          <section className="p-8 py-15 max-sm:p-4  max-sm:py-15">
+          <section id="newarrivals" className="p-8 py-15 max-sm:p-4  max-sm:py-15">
             <NewArrivals/>
           </section>
-          <section className="p-8 py-15 max-sm:p-4  ">
+          <section id="reviews" className="p-8 py-15 max-sm:p-4  ">
             <Reviews/>
           </section>
-          <section className="  max-sm:py-15">
+          <section id="blog" className="  max-sm:py-15">
             <BlogPosts/>
           </section>
           <Footer/>

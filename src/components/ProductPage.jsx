@@ -18,7 +18,7 @@ function ProductPage() {
 
     return (
         <>
-            {/* Offer Images */}
+        
             <div className="offers flex justify-center gap-4 flex-wrap">
                 {offersImages.map((offer, index) => (
                     <img
@@ -30,13 +30,12 @@ function ProductPage() {
                 ))}
             </div>
 
-            {/* Title and Description */}
-            <h1 id="products" className="text-center text-[2rem] font-[600] mt-15 mb-2">
+         
+            <h1  className="text-center text-[2rem] font-[600] mt-15 mb-2">
                 {prductPageContent.title}
             </h1>
             <p className="text-center">{prductPageContent.description}</p>
 
-            {/* Tab Buttons */}
             <div className="tabButtons flex flex-wrap gap-4 justify-center my-4">
                 <TabButton isSelected={tab === "allProducts"} onSelect={() => handleClick("allProducts")}>
                     All Products
@@ -49,13 +48,12 @@ function ProductPage() {
                 </TabButton>
             </div>
 
-            {/* Product Cards */}
             {tab && (
                 <div key={tab} className="products flex justify-center items-center gap-[2rem] flex-wrap my-10 text-center">
                     {products[tab].map((product, index) => (
                         <ProductCard
                             key={index}
-                            className="card p-3 rounded-[5px] max-sm:w-[90%]"
+                            
                             image={product.productImage}
                             title={product.productTitle}
                             price={product.productPrice}
@@ -66,7 +64,7 @@ function ProductPage() {
                 </div>
             )}
 
-            {/* Detail Box */}
+     
            {details.productName && (
     <div className="fixed inset-0 bg-black/30 backdrop-blur-sm flex justify-center items-center z-50">
         <div className="bg-white text-black p-8 shadow-xl rounded-lg w-[80%] max-w-lg relative">

@@ -2,9 +2,9 @@ function ProductCard({handleDetails, image, title, price, rating, ...props}) {
     return (
         <div
             {...props}
-            className={`overflow-hidden text-center ${props.className || ""}`}
+            className={`card p-3 rounded-[20px] w-full max-w-[300px] max-sm:w-[100%] overflow-hidden text-center ${props.className || ""}`} 
         >
-            <div className="overflow-hidden rounded-[10px]">
+            <div className="overflow-hidden ">
                 <img
                     src={image}
                     alt={title}
