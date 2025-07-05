@@ -31,7 +31,7 @@ function ProductPage() {
             </div>
 
             {/* Title and Description */}
-            <h1 id="catalogue" className="text-center text-[2rem] font-[600] mt-15 mb-2">
+            <h1 id="products" className="text-center text-[2rem] font-[600] mt-15 mb-2">
                 {prductPageContent.title}
             </h1>
             <p className="text-center">{prductPageContent.description}</p>

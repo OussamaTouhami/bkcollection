@@ -36,9 +36,10 @@ function NewArrivals() {
                     <div className="bg-white text-black p-6 shadow-xl rounded-lg w-[80%] max-w-lg relative">
                         <button
                             onClick={() => setDetails({})}
-                            className="absolute top-2 right-3 text-red-600 text-xl font-bold"
+                            className="absolute top-2 right-3 text-[#ffbb00] text-[1.5rem] font-bold"
                         >
-                            ✖
+                                            <i className="fa-solid fa-xmark"></i>
+
                         </button>
                         <h2 className="text-2xl font-semibold mb-4">{details.productName}</h2>
                         <p className="text-gray-700">{details.description}</p>
